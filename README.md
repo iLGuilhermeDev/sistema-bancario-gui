@@ -82,12 +82,16 @@ Atualização dinâmica: após depósitos, saques ou transferências, a exibiç�
 
 Extrato: requer atualização manual via botão para recarregar a tabela (melhorias futuras podem automatizar).
 
+---
+
 Limitações Conhecidas
 Os dados são armazenados apenas em memória; ao encerrar a aplicação, todas as informações são perdidas.
 
 O rendimento da poupança não é calculado automaticamente (deve ser invocado por método específico).
 
 Não há persistência em arquivo ou banco de dados (previsto para versões futuras).
+
+---
 
 Próximos Passos
 Implementar persistência dos dados (arquivo ou JDBC)
@@ -100,5 +104,7 @@ Incluir opção de alteração de senha
 
 Adicionar ícones aos botões para melhor experiência visual
 
-Pequenas vitórias
-Grandes avanços
+---
+
+“Intelligence is a privilege, and it needs to be used for the greater good.”
+
