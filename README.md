@@ -52,21 +52,23 @@ Alternativamente, importe o projeto em uma IDE (IntelliJ, Eclipse, NetBeans) e e
 
 Estrutura do Projeto
 text
-├── Cliente.java          # Representação do cliente (dados e validação de senha)
-├── Transacao.java        # Registro de cada movimentação financeira
-├── Conta.java            # Classe abstrata base para contas
-├── ContaCorrente.java    # Conta corrente com cheque especial
-├── ContaPoupanca.java    # Conta poupança com rendimento
-└── BancoGUI.java         # Interface gráfica principal (Swing)
+├── Cliente.java         
+├── Transacao.java        
+├── Conta.java            
+├── ContaCorrente.java    
+├── ContaPoupanca.java    
+└── BancoGUI.java         
 Interface Gráfica
 As telas a seguir ilustram o funcionamento do sistema. As imagens estão localizadas na pasta screenshots.
 
 Tela	Descrição
-https://screenshots/Tela%2520de%2520cadastro.png	Cadastro de novo cliente e escolha do tipo de conta
-https://screenshots/%25C3%2581rea%2520de%2520saque.png	Operação de saque com validação de saldo
-https://screenshots/%25C3%2581rea%2520de%2520extrato.png	Exibição do histórico completo de transações
-https://screenshots/%25C3%2581rea%2520de%2520saldo.png	Consulta de saldo atual e limite de cheque especial
-https://screenshots/Hist%25C3%25B3rico%2520de%2520contas.png	Listagem de todas as contas registradas
+
+Tela de cadastro.png	Cadastro de novo cliente e escolha do tipo de conta
+Área de saque	Operação de saque com validação de saldo
+Área de extrato.png	Exibição do histórico completo de transações
+Área de saldo.png	Consulta de saldo atual e limite de cheque especial
+Histórico de contas.png	Listagem de todas as contas registradas
+
 Observações Técnicas
 Precisão monetária: todas as operações utilizam BigDecimal para evitar erros de arredondamento com ponto flutuante.
 
