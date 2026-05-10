@@ -69,7 +69,9 @@ As telas a seguir ilustram o funcionamento do sistema. As imagens estão localiz
 | ![Saque](prints/saque.png) | Operação de saque |
 | ![Extrato](prints/extrato.png) | Histórico de transações |
 | ![Saldo](prints/saldo.png) | Consulta de saldo |
-| ![Histórico de contas](prints/historico.png) | Listagem de contas |
+| ![histórico](prints/historico.png) | Listagem de contas |
+
+---
 
 Observações Técnicas
 Precisão monetária: todas as operações utilizam BigDecimal para evitar erros de arredondamento com ponto flutuante.
@@ -98,3 +100,5 @@ Incluir opção de alteração de senha
 
 Adicionar ícones aos botões para melhor experiência visual
 
+Pequenas vitórias
+Grandes avanços
