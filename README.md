@@ -61,13 +61,15 @@ text
 Interface Gráfica
 As telas a seguir ilustram o funcionamento do sistema. As imagens estão localizadas na pasta screenshots.
 
-Tela	Descrição
+## Interface Gráfica
 
-Tela de cadastro.png	Cadastro de novo cliente e escolha do tipo de conta
-Área de saque	Operação de saque com validação de saldo
-Área de extrato.png	Exibição do histórico completo de transações
-Área de saldo.png	Consulta de saldo atual e limite de cheque especial
-Histórico de contas.png	Listagem de todas as contas registradas
+| Tela | Descrição |
+|------|------------|
+| ![Cadastro](screenshots/cadastro.png) | Cadastro de novo cliente |
+| ![Saque](screenshots/saque.png) | Operação de saque |
+| ![Extrato](screenshots/extrato.png) | Histórico de transações |
+| ![Saldo](screenshots/saldo.png) | Consulta de saldo |
+| ![Histórico de contas](screenshots/historico.png) | Listagem de contas |
 
 Observações Técnicas
 Precisão monetária: todas as operações utilizam BigDecimal para evitar erros de arredondamento com ponto flutuante.
